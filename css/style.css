@@ -1,0 +1,887 @@
+#header{
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+}
+
+#menubar {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 98.76%;
+    width: 1920px;
+    height: 120px;
+    background: rgba(20, 0, 57);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+#menubar #logo {
+    position: absolute;
+    left: 21.09%;
+    right: 70.31%;
+    top: 35%;
+    bottom: 35%;
+}
+
+#menubar #button {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    max-width: 729px;
+    height: 100%;
+    left: 40.94%;
+    right: 21.09%;
+    top: 42.5%;
+    bottom: 41.67%;
+}
+
+
+
+.item{
+    color: white;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    position: relative;
+    font-size: 14px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+.dropdown {
+    color: #FFF;
+    width: 116px;
+    height: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.dropdown .content {
+    top: 100%;
+    left: 0px;
+    width: 295px;
+    display: none;
+    position: absolute;
+    background: rgba(20, 0, 57);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.content a{
+    color: #FFF;
+    width: 100%;
+    display: flex;
+    font-size: 14px;
+    font-style: normal;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: bold;
+    line-height: 48px;
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+.dropdown .content a:hover{
+    color: #FF6F00;
+}
+
+#slider {
+    background:url(../images/banner.jpg) no-repeat;
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+}
+
+#slider .content {
+    position: absolute;
+    width: 1110px;
+    height: 366px;
+    left: 405px;
+    top: 387px;
+}
+
+#slider .content .h3 {
+    position: absolute;
+    top: 4%;
+    bottom: 94.8%;
+    width: 1110px;
+    height: 116px;
+
+    /* H3 */
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 54px;
+    /* or 112% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#slider .content .subtitle {
+    position: absolute;
+    top: 158px;
+    bottom: 94.8%;
+    left: 190px;
+    width: 730px;
+    height: 68px;
+
+/* Subtitle */
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+
+
+#content {
+    position: absolute;
+    width: 1920px;
+    height: 9999999px;
+    left: 0px;
+    top: 1082px;
+}
+
+#who {
+    position: absolute;
+    width: 1920px;
+    height: 937px;
+    left: 0px;
+    top: 0px;
+    background: #F7F7F7;
+    box-shadow: 0px 1px 0px #EEEEEE;
+}
+
+
+#who .content{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+
+    position: absolute;
+    width: 350px;
+    height: 697px;
+    left: 405px;
+    top: 120px;
+}
+
+#who .content .heading{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+
+    position: static;
+    width: 350px;
+    height: 169px;
+    left: 0px;
+    top: 0px;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    align-self: center;
+}
+
+#who .content .heading .H4{
+    position: static;
+    width: 255px;
+    height: 49px;
+    left: 0px;
+    top: 0px;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    align-self: flex-start;
+}
+
+
+#who .content .heading .H4 .t{  
+
+    position: absolute; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height, or 120% */
+    
+    text-transform: uppercase;
+    
+    /* Color/Main/Dark Blue */
+    
+    color: #140039;
+}
+
+#who .content .heading .text{
+    position: static;
+    width: 350px;
+    height: 90px;
+    left: 0px;
+    top: 79px;
+
+    /* Subtitle */
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    /* or 167% */
+
+    text-align: justify;
+
+    /* Colour/Text/Secondary */
+
+    color: #555555;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    align-self: center;
+    margin: 30px 0px;
+}
+
+#who .content .content{
+    position: static;
+    width: 350px;
+    height: 488px;
+    left: 0px;
+    top: 209px;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    align-self: center;
+    margin: 40px 0px;
+}
+
+#who .content .content .text{
+    position: absolute;
+    width: 350px;
+    height: 488px;
+    left: 0px;
+    top: 209px;
+
+    /* Content */
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 187% */
+
+    text-align: justify;
+    font-feature-settings: 'ss01' on, 'liga' off;
+
+    /* Colour/Text/Main */
+
+    color: #222222;
+}
+
+#who .infors{
+    position: absolute;
+    width: 730px;
+    height: 581px;
+    left: 785px;
+    top: 178px;
+}
+
+#who .infors .project{
+    border-radius: 50%;
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 570px;
+    top: 355px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 36px rgba(0, 0, 0, 0.08);
+}
+
+#who .infors .project .content{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+
+    position: absolute;
+    width: 95px;
+    height: 82px;
+    left: 34px;
+    top: 44px;
+}
+
+#who .infors .project .content .a{
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 41.46%;
+
+    /* H4 */
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height, or 120% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #0070AD;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 0px 4px;
+}
+
+#who .infors .project .content .b{
+    position: static;
+    left: 15.26%;
+    right: 15.26%;
+    top: 63.41%;
+    bottom: 0%;
+
+    /* Subtitle */
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+
+    text-align: center;
+
+    /* Colour/Text/Secondary */
+
+    color: #555555;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    align-self: center;
+    margin: 0px 4px;
+}
+
+#who .infors .nation{
+    border-radius: 50%;
+    position: absolute;
+    width: 255px;
+    height: 255px;
+    left: 285px;
+    top: 150px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 42px rgba(0, 0, 0, 0.1);
+}
+
+#who .infors .nation .content{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+
+    position: absolute;
+    width: 155px;
+    height: 148px;
+    left: 50px;
+    top: 49px;
+
+
+}
+
+#who .infors .nation .content .a{
+    position: static;
+    left: 31.61%;
+    right: 31.61%;
+    top: 0%;
+    bottom: 27.03%;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 108px;
+    /* identical to box height, or 112% */
+
+    text-align: center;
+
+    color: #FF6F00;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 0px 10px;
+}
+
+#who .infors .nation .content .b{
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 79.73%;
+    bottom: 0%;
+
+    /* Subtitle */
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+
+    text-align: center;
+
+    /* Colour/Text/Secondary */
+
+    color: #555555;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    align-self: center;
+    margin: 0px 10px;
+}
+
+#who .infors .headcounts{
+    border-radius: 50%;
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    left: 0px;
+    top: 240px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 36px rgba(0, 0, 0, 0.08);
+}
+
+#who .infors .headcounts .content{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    
+    position: absolute;
+    width: 114px;
+    height: 88px;
+    left: 40px;
+    top: 57px;
+    
+}
+
+#who .infors .headcounts .content .a{
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 38.64%;
+
+    /* H3 */
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 54px;
+    /* identical to box height, or 112% */
+
+    text-align: center;
+
+    color: #AD0070;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 0px 4px;
+}
+
+#who .infors .headcounts .content .b{
+    position: static;
+    left: 7.02%;
+    right: 7.02%;
+    top: 65.91%;
+    bottom: 0%;
+
+    /* Subtitle */
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+
+    text-align: center;
+
+    /* Colour/Text/Secondary */
+
+    color: #555555;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    align-self: center;
+    margin: 0px 4px;
+}
+
+#who .infors .EU{
+    border-radius: 50%;
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    left: 59px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.06);
+    }
+
+    #who .infors .EU .content{
+        display: flex;
+    flex-direction: column;
+    padding: 0px;
+
+    position: absolute;
+    width: 88px;
+    height: 122px;
+    left: 59px;
+    top: 0px;
+}
+
+#who .infors .EU .content{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+
+    position: absolute;
+    width: 88px;
+    height: 122px;
+    left: 51px;
+    top: 36px;
+    
+}
+
+#who .infors .EU .content .a{
+    position: static;
+    left: 1.7%;
+    right: 1.7%;
+    top: 0%;
+    bottom: 55.74%;
+
+    /* H3 */
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 54px;
+    /* identical to box height, or 112% */
+
+    text-align: center;
+
+    color: #E6C400;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 0px 8px;
+}
+
+#who .infors .EU .content .b{
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 50.82%;
+    bottom: 0%;
+
+    /* Subtitle */
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    text-align: center;
+
+    /* Colour/Text/Secondary */
+
+    color: #555555;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    align-self: center;
+    margin: 0px 8px;
+}
+
+#who .infors .Brand{
+    border-radius: 50%;
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    left: 540px;
+    top: 0px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+}
+
+#who .infors .Brand .content{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+
+    position: absolute;
+    width: 88px;
+    height: 94px;
+    left: 51px;
+    top: 48px;
+}
+
+#who .infors .Brand .content .a{
+    position: static;
+    left: 1.7%;
+    right: 1.7%;
+    top: 0%;
+    bottom: 42.55%;
+
+    /* H3 */
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 54px;
+    /* identical to box height, or 112% */
+
+    text-align: center;
+
+    color: #70AD00;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 0px 10px;
+}
+
+#who .infors .Brand .content .b{
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 68.09%;
+    bottom: 0%;
+
+    /* Subtitle */
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+
+    text-align: center;
+
+    /* Colour/Text/Secondary */
+
+    color: #555555;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    align-self: center;
+    margin: 0px 10px;
+}
+
+#who .infors .Nation{
+    border-radius: 50%;
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 190px;
+    top: 421px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+}
+
+#who .infors .Nation .content{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+
+    position: absolute;
+    width: 71px;
+    height: 88px;
+    left: 46px;
+    top: 45px;
+}
+
+#who .infors .Nation .content .a{
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 45.45%;
+
+    /* H4 */
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height, or 120% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #3D00AD;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 0px 10px;
+}
+
+#who .infors .Nation .content .b{
+    position: static;
+    width: 63px;
+    height: 30px;
+    left: 4px;
+    top: 58px;
+
+    /* Subtitle */
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+
+    text-align: center;
+
+    /* Colour/Text/Secondary */
+
+    color: #555555;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    align-self: center;
+    margin: 0px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
